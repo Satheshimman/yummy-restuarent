@@ -1,0 +1,400 @@
+*{
+
+padding:0;
+margin:0;
+box-sizing:border-box;
+list-style:none;
+text-decoration:none;
+
+
+}
+
+li a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+}
+
+ ul li{
+	list-style:none;
+}
+
+
+/* ...................................navbar....................... */
+
+.nav{
+	background-color:white;
+	width:100%;
+	
+}
+
+.logo h2{
+	font-size:36px;
+}
+li a:hover{
+	color:red;
+}
+
+.line{
+	background-color:blue;
+	height:3px;
+	width:20px;
+	margin-bottom:5px;
+	margin-right:40px;
+	
+	
+}
+
+.ul-line li a{
+	position:relative;
+}
+
+.ul-line li a:hover::after{
+	transform:scaleX(1);
+	transform-origin:bottom-right;
+}
+
+.ul-line li a::after{
+	
+	position: absolute;
+    content: "";
+    background-color: red;
+    height: 4px;
+    width: 100%;
+    top: 35px;
+    left: 0px;
+	border-radius:5px;
+	transform:scaleX(0);
+	transform-origin:bottom-right;
+	transition:all 0.4s ease-in-out;
+	
+	
+	
+}
+
+
+
+
+.ul-line{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+	
+}
+
+
+.menuu{
+	cursor:pointer;
+    display:none;
+}
+
+@media (max-width:990px){
+	
+	.nav{
+		
+		flex-direction:column!important;
+	}
+	
+	.ul-line{
+		display:block;
+		text-align:center;
+		display:none;
+		
+	}
+	
+	.logo h2{
+		text-align:start;
+	}
+	
+	
+	.menuu{
+		display:block;
+		position:absolute;
+		right:25px;
+		top:25px;
+	}
+	
+	.ul-line li{
+		margin:10px 0px;
+		
+	}
+	
+	.showmenu{
+		display:block;
+	}
+	
+	
+	
+}
+
+h1{
+	font-family:'Amatic SC', cursive;
+	font-size:64px!important;
+}
+h1 span{
+	color:red;
+}
+
+.nav-list{
+	
+	list-style:none;
+	text-decoration:none;
+	display:flex!important;
+	justify-content:space-between!important;
+	
+}
+.width-nav{
+	width:15%!important;
+	position:relative;
+}
+
+.navbar-li ul li a:hover::after{
+	width:100%;
+	
+}
+.navbar-li ul li a::after{
+	content:"";
+	position:absolute;
+	height:3px;
+	bottom:-6px;
+	left:0px;
+	background-color:red;
+	width:0%;
+	transition: all .5s ease;
+	border-radius:5px;
+		
+}
+#sec-2{
+	background-color:#8080803b;
+}
+
+#sec-5{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/stats-bg.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#sec-5 h1{
+
+color:white;
+font-size:60px;	
+}
+#sec-5 p{
+	color:white;
+	
+}
+
+.navbar{
+	
+	background-color:white!important;
+}
+
+.bk-color{
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+
+li{
+	list-style:none;
+}
+
+/* ......................................section-3...................... */
+
+
+.sec-3-left-content img {
+	
+	height:100%;
+	
+}
+
+.sec-3-left-content{
+	position:relative;
+}
+
+.table{
+	position:absolute;
+	bottom:40px;
+	left:60px;
+	display:inline-block;
+	background-color:white;
+	width:80%!important;
+	
+}
+
+.about-img{
+	position:relative;
+	
+}
+
+.card-1 a{
+	background-color:#8080803b;
+}
+
+.card-2 i{
+	background-color:#8080803b;
+	border-radius:50%;
+	padding:20px 25px;
+	text-align:center;
+}
+.icon{
+	position:absolute;
+	top:38%;
+	left:40%;
+	color:red;
+}
+
+
+
+
+.menu ul p:hover{
+	color:red;
+}
+
+
+/* ...............................................................................................sec-7 */
+
+#sec-5 h1{
+	font-family:normal;
+}
+
+
+
+
+
+
+/* ......................................sec-7............................................ */
+
+
+
+
+.card-img img{
+	border-radius:50%;
+}
+
+
+
+
+
+
+/* .......................................................sec-8................................................ */
+
+
+.card:hover{
+	transform:scale(1.03);
+	overflow:hidden;
+	box-shadow: 5px 0px 0px 5px white;
+}
+
+
+.card-flow{
+	overflow:hidden;
+}
+
+
+
+/* .sec-8-bg{ */
+	/* background-color:#8080803b; */
+/* } */
+
+.inputs input{
+	border:white;
+	outline:white;
+}
+
+.inputs input:focus{
+	border:red;
+	outline:red;
+}
+
+.inputs textarea{
+	border:red;
+	outline:none;
+	
+}
+.inputs textarea:focus{
+	border:red;
+	outline:red;
+}
+/* .....................................................................sec-10...................................................... */
+
+.contact-icon i{
+	background-color:red!important;
+	height:100px!important;
+	width:100px!important;
+    color:white;
+	border-radius:50%!important;
+}
+
+.contact{
+	background-color:#8080801f;
+}
+
+
+.input-2 input{
+	outline:gray;
+}
+
+.input-3 input{
+outline:gray;
+}
+.input-3 textarea{
+outline:gray;
+}
+
+
+
+.follow i{
+	border:1px solid black;
+	height:30px!important;
+	width:40px!important;
+	border-radius:50%!important;
+	padding-right:10px;
+}
+
+
+
+.follow i:hover{
+	
+	border:1px solid white;
+	
+}
+
+
+
+
+/* .....................................................................................................section-10........................................... */
+
+
+
+
+.event-img  {
+	 background-image:linear-gradient(#00000045,#00000045),url("images/events/events-1.jpg");
+	 height:100vh;
+	 width:100%;
+	 position:relative;
+}
+
+
+.event-img-2  {
+	 background-image:linear-gradient(#00000045,#00000045),url("images/events/events-2.jpg");
+	 height:100vh;
+	 width:100%;
+	  position:relative;
+}
+
+
+.event-img-3  {
+	 background-image:linear-gradient(#00000045,#00000045),url("images/events/events-3.jpg");
+	 height:100vh;
+	 width:100%;
+	  position:relative;
+}
+
+.event-con{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
