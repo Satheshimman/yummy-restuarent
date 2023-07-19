@@ -375,6 +375,8 @@ outline:gray;
 	 height:100vh;
 	 width:100%;
 	 position:relative;
+	 background-repeat:no-repeat;
+	 background-size:cover;
 }
 
 
@@ -383,6 +385,8 @@ outline:gray;
 	 height:100vh;
 	 width:100%;
 	  position:relative;
+	   background-repeat:no-repeat;
+	 background-size:cover;
 }
 
 
@@ -391,6 +395,8 @@ outline:gray;
 	 height:100vh;
 	 width:100%;
 	  position:relative;
+	   background-repeat:no-repeat;
+	 background-size:cover;
 }
 
 .event-con{
